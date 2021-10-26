@@ -1,0 +1,64 @@
+When someone asks you "How are you?", What is your usual reply? 
+- I'm great! 
+- I'm fine 
+- I could be better but it's okay 
+- Not good
+Do you think you'll accomplish your dreams in life?
+- I already have 
+- Yes I will! 
+- I'll not get EVERYTHING I wish for but I will get something
+- No, Expectations always fail you 
+How do you view other people "In general?" 
+- Everyone is great! They all have some good in them!
+- All have a good side but not many stick to it
+- You can't trust anyone these days. They will all break their promises. It is better to be independent 
+You have a huge speech to give today? How do you expect it to be? 
+-Hopefull, it will be wonderful. 
+-I will stutter a bit, and forget some lines but overall it'll be okay 
+-I'll not give the speech because I can't do it
+Look at this picture. What comes to your mind first? This glass is....
+-Half Empty
+-Half full
+-Half empty and half full
+How was this personality test? 
+-It was great! 
+-It could be better
+-Please tell me the results quickly
+
+
+Optimist- 
+Your life is filled with hope and and cheer! You believe in the good of people. According to you, things can never go bad because whatever happens,
+ happens for the best. And this is a great atitude! So keep it up!
+ 
+Realist- 
+You like to rely on facts and studies. You don't keep false hopes. This doesn't mean you don't look on the bright side. You look at both sides, 
+compare them and then form your perceptions. 
+Pessismist-
+You like to look at the grey areas of every thing. You don't like expectations and believe that they never come true. Maybe you can try to look on
+the bright side of things a little bit. But you are the best judge of who you want to be!
+
+
+
+ if (this.optimist>this.realist+this.pessimist){
+        text("Congratulations! You completed the test",10,1620)
+        text("It seems as if you are an optimist. Your life is filled with hope and and cheer!",10,1640)
+        text("You believe in the good of people. According to you, things can never go bad because whatever happens, it happens for the best. ",10,1660)
+        text("And this is a great atitude! So keep it up",10,1680)
+       
+    }else if(this.optimist>this.realist && this.optimist>this.pessimist){
+        text("Congratulations! you completed the test!",10,1620)
+        text("You are definitely in a positive mood today!. You are likely to be an optimist ",10,1640)
+        text("There may be times when you feel down, but that's normal! Even though things don't turn out well,",10,1660)
+        text("at the end of the day you smile and forget it! That is the atitude!",10,1680)
+    }else if(this.realist>this.optimist && this.reealist>this.pessimist){
+        text("Congratulations! you completed the test!",10,1620)
+      text("Based on the options you selected, You are likely a realist. ",10,1640)
+        text("You see what you think is the truth. You understand that the truth can be both good and bad. ",10,1660)
+        text("It is nice to have people like you in the world! Just remember, it is okay to expect the good once in a while, to cheer you up! ",10,1680)
+    }
+    else if (this.pessimist>this.optimist && this.pessimist>this.realist){
+        text("Congratulations! you completed the test!",10,1620)
+        text("It seems you are a pessimist. ",10,1640)
+        text("You like to look at the grey areas of every thing. You don't like expectations and believe that they never come true. ",10,1660)
+        text("Maybe you can try to look on the bright side of things a little bit. But you are the best judge of who you want to be!",10,1680)
+    }
